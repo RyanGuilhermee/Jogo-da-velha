@@ -21,7 +21,7 @@ void drawGame(char *board) {
     }
 }
 
-//valida as sequencias vencedoras ou se deu velhboard
+//valida as sequencias vencedoras ou se deu velha
 int validateGame(char *board, char optionP1, char optionP2, int j) {
     int res = 0;
     
